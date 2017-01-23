@@ -1,0 +1,6 @@
+---
+- name: Download awesome package
+  apt:
+    name: awesome
+    state: present
+    update_cache: yes
