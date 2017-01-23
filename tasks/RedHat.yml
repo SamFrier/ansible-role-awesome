@@ -1,2 +1,6 @@
 ---
-# TODO
+- name: Download awesome package
+  yum:
+    name: awesome
+    state: present
+    update_cache: yes
